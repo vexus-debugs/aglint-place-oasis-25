@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Phone, Mail, MapPin, Star, Clock, Calendar, MessageCircle } from 'lucide-react';
@@ -14,7 +13,7 @@ const Index = () => {
     {
       title: "Swedish Massage",
       description: "A classic relaxation massage designed to relieve stress, improve circulation, and promote overall well-being.",
-      image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
       price: "₦15,000",
       homePrice: "₦30,000",
       slug: "swedish-massage"
@@ -22,7 +21,7 @@ const Index = () => {
     {
       title: "Deep Tissue Massage",
       description: "A massage technique that targets deep muscle layers and connective tissues to relieve chronic pain and muscle tension.",
-      image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1611073615830-9f76903ee5e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
       price: "₦20,000",
       homePrice: "₦30,000",
       slug: "deep-tissue-massage"
@@ -30,7 +29,7 @@ const Index = () => {
     {
       title: "Nuru Massage",
       description: "A body-to-body massage where both the therapist and the client are naked. The therapist uses her body to massage the client.",
-      image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1607524215784-7e3f954d3f6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
       price: "₦30,000",
       homePrice: "₦50,000",
       slug: "nuru-massage"
@@ -41,21 +40,21 @@ const Index = () => {
   const testimonials = [
     {
       name: "Alex Johnson",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80",
+      image: "https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80",
       rating: 5,
       testimonial: "The deep tissue massage was exactly what I needed. The therapist was professional and addressed all my problem areas. Highly recommended!",
       service: "Deep Tissue Massage"
     },
     {
       name: "Sarah Williams",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80",
+      image: "https://images.unsplash.com/photo-1542596594-649edbc13630?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80",
       rating: 5,
       testimonial: "I've been to many spas in Lagos, but Aglint Place Spa offers the most relaxing Swedish massage I've ever experienced. The ambiance is so peaceful!",
       service: "Swedish Massage"
     },
     {
       name: "David Chen",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80",
+      image: "https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80",
       rating: 4,
       testimonial: "The King's Massage was truly a royal treatment. Two therapists working simultaneously created an unforgettable experience. Worth every penny!",
       service: "King's Massage"
@@ -70,7 +69,7 @@ const Index = () => {
       <section 
         className="pt-32 pb-20 md:pt-48 md:pb-32 relative"
         style={{
-          backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')",
+          backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')",
           backgroundSize: "cover",
           backgroundPosition: "center"
         }}
@@ -142,7 +141,7 @@ const Index = () => {
             </div>
             <div className="order-1 md:order-2 relative">
               <img 
-                src="https://images.unsplash.com/photo-1591343395082-e120087004b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80" 
+                src="https://images.unsplash.com/photo-1597289124955-e2d1a7a7f0c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80" 
                 alt="Aglint Place Spa Interior" 
                 className="rounded-lg shadow-lg object-cover h-full"
               />
