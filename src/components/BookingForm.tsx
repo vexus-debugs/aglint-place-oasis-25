@@ -1,8 +1,10 @@
 
 import React, { useState } from 'react';
 import { Calendar, Clock } from 'lucide-react';
+import { useToast } from "@/hooks/use-toast";
 
 const BookingForm = () => {
+  const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -24,11 +26,40 @@ const BookingForm = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real app, you would send this data to a server
+    
+    // Log form submission for debugging
     console.log('Form submitted:', formData);
     
+    // Format the message for WhatsApp
+    const whatsappMessage = `*New Booking Request*
+*Name:* ${formData.name}
+*Email:* ${formData.email}
+*Phone:* ${formData.phone}
+*Service:* ${formData.service}
+*Location:* ${formData.location === 'spa' ? 'At Aglint Place Spa' : 'Home/Hotel Service'}
+*Date:* ${formData.date}
+*Time:* ${formData.time}
+*Message:* ${formData.message || 'No special requests'}`;
+
+    // Encode the message for WhatsApp URL
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+    
+    // Nigerian WhatsApp number from the WhatsAppButton component
+    const whatsappNumber = "2347031070502";
+    
+    // Create WhatsApp URL
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+    
     // Show success message
-    alert('Thank you for your booking request! We will contact you shortly to confirm your appointment.');
+    toast({
+      title: "Booking Request Submitted",
+      description: "You'll be redirected to WhatsApp to confirm your appointment details.",
+    });
+    
+    // Open WhatsApp in a new tab
+    setTimeout(() => {
+      window.open(whatsappUrl, '_blank');
+    }, 1500);
     
     // Reset form
     setFormData({

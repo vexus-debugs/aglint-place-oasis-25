@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Phone, Mail, MapPin, Star, Clock, Calendar, MessageCircle } from 'lucide-react';
@@ -37,24 +36,24 @@ const Index = () => {
     }
   ];
 
-  // Testimonials
+  // Testimonials with Nigerian names
   const testimonials = [
     {
-      name: "Alex Johnson",
+      name: "Oluwaseun Adeyemi",
       image: "https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80",
       rating: 5,
       testimonial: "The deep tissue massage was exactly what I needed. The therapist was professional and addressed all my problem areas. Highly recommended!",
       service: "Deep Tissue Massage"
     },
     {
-      name: "Sarah Williams",
+      name: "Chioma Okafor",
       image: "https://images.unsplash.com/photo-1542596594-649edbc13630?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80",
       rating: 5,
       testimonial: "I've been to many spas in Lagos, but Aglint Place Spa offers the most relaxing Swedish massage I've ever experienced. The ambiance is so peaceful!",
       service: "Swedish Massage"
     },
     {
-      name: "David Chen",
+      name: "Tunde Bakare",
       image: "https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80",
       rating: 4,
       testimonial: "The King's Massage was truly a royal treatment. Two therapists working simultaneously created an unforgettable experience. Worth every penny!",
