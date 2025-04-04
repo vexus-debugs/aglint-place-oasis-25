@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Phone, Mail, MapPin, Star, Clock, Calendar, MessageCircle } from 'lucide-react';
@@ -13,7 +14,7 @@ const Index = () => {
     {
       title: "Swedish Massage",
       description: "A classic relaxation massage designed to relieve stress, improve circulation, and promote overall well-being.",
-      image: "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1620811449868-12edc04650eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
       price: "₦15,000",
       homePrice: "₦30,000",
       slug: "swedish-massage"
@@ -21,7 +22,7 @@ const Index = () => {
     {
       title: "Deep Tissue Massage",
       description: "A massage technique that targets deep muscle layers and connective tissues to relieve chronic pain and muscle tension.",
-      image: "https://images.unsplash.com/photo-1611073615830-9f76903ee5e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
       price: "₦20,000",
       homePrice: "₦30,000",
       slug: "deep-tissue-massage"
@@ -29,7 +30,7 @@ const Index = () => {
     {
       title: "Nuru Massage",
       description: "A body-to-body massage where both the therapist and the client are naked. The therapist uses her body to massage the client.",
-      image: "https://images.unsplash.com/photo-1607524215784-7e3f954d3f6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
       price: "₦30,000",
       homePrice: "₦50,000",
       slug: "nuru-massage"

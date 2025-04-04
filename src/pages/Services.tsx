@@ -12,7 +12,7 @@ const Services = () => {
     {
       title: "Swedish Massage",
       description: "A classic relaxation massage designed to relieve stress, improve circulation, and promote overall well-being.",
-      image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1620811449868-12edc04650eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
       price: "₦15,000",
       homePrice: "₦30,000",
       slug: "swedish-massage"
@@ -20,7 +20,7 @@ const Services = () => {
     {
       title: "Deep Tissue Massage",
       description: "A massage technique that targets deep muscle layers and connective tissues to relieve chronic pain and muscle tension.",
-      image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
       price: "₦20,000",
       homePrice: "₦30,000",
       slug: "deep-tissue-massage"
@@ -28,7 +28,7 @@ const Services = () => {
     {
       title: "Four Hands Swedish Massage",
       description: "A luxury experience where two therapists work simultaneously to provide a synchronized relaxation massage.",
-      image: "https://images.unsplash.com/photo-1519824145371-296894a0daa9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
       price: "₦35,000",
       homePrice: "₦50,000",
       slug: "four-hands-swedish-massage"
@@ -36,7 +36,7 @@ const Services = () => {
     {
       title: "Erotic Massage",
       description: "A sensual massage where the therapist wears pant and bra, offering either a Swedish or deep tissue massage, which includes a hand job.",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1611073615830-9f76903ee5e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
       price: "₦25,000",
       homePrice: "₦40,000",
       slug: "erotic-massage"
@@ -44,7 +44,7 @@ const Services = () => {
     {
       title: "Nuru Massage",
       description: "A body-to-body massage where both the therapist and the client are naked. The therapist uses her body to massage the client, and it includes a hand job.",
-      image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
       price: "₦30,000",
       homePrice: "₦50,000",
       slug: "nuru-massage"
@@ -52,7 +52,7 @@ const Services = () => {
     {
       title: "Four Hands Erotic Massage",
       description: "Two therapists performing an erotic massage at the same time, enhancing the experience for the client.",
-      image: "https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1537125869803-08aeca8d2ece?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
       price: "₦45,000",
       homePrice: "₦65,000",
       slug: "four-hands-erotic-massage"
@@ -60,7 +60,7 @@ const Services = () => {
     {
       title: "King's Massage",
       description: "A premium nuru massage performed by two therapists at the same time, providing maximum relaxation and pleasure.",
-      image: "https://images.unsplash.com/photo-1583417319070-4a69db38a482?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
       price: "₦55,000",
       homePrice: "₦75,000",
       slug: "kings-massage"
@@ -68,7 +68,7 @@ const Services = () => {
     {
       title: "Facials",
       description: "A professional skincare treatment that includes cleansing, exfoliation, and moisturizing for a refreshed look.",
-      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
       price: "₦7,500",
       homePrice: "₦10,000",
       slug: "facials"
