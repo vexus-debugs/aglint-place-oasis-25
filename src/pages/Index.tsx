@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Phone, Mail, MapPin, Star, Clock, Calendar, MessageCircle } from 'lucide-react';
@@ -69,7 +70,7 @@ const Index = () => {
       <section 
         className="pt-32 pb-20 md:pt-48 md:pb-32 relative"
         style={{
-          backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')",
+          backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/lovable-uploads/ba0a20ad-9b39-436f-99ea-fe0b4d356391.png')",
           backgroundSize: "cover",
           backgroundPosition: "center"
         }}
